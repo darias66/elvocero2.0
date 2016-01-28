@@ -1,0 +1,594 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12/01/2016, 12:03:22 PM
+    Author     : Ana
+*/
+
+
+/* == GENERAL == */
+body{ 
+    background: white;
+    cursor:default;
+}
+.titulos{
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+    margin-bottom: 20px;
+    font-family: 'Patua One';
+    color: white;
+}
+.wrap{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    align-content: center;
+}
+.wrap2{
+    padding-top: 70px;
+    padding-bottom: 50px;
+    text-align: center;
+    align-content: center;
+}
+.mnuevo{
+    padding-top: 70px;
+}
+#logo{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+h2{
+    font-family: 'Lobster', cursive;
+}
+/* == MENU == */
+#menu{
+    background: none;
+    color: #ccc;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+ .dropdown{
+     margin-top: 10px;
+     display: inline-block
+ }
+  .dropdown-contenido{
+     display: none;
+     position:absolute;
+     background-color: #222;
+     width: 300px;
+     font-size: 15px;
+     padding: 10px;
+     
+ }
+ .dropdown-contenido a{
+     color: white;
+     padding: 4px;
+     text-decoration: none;
+     display: block;
+ }
+ .dropdown-contenido a#mu:hover{
+     background-color: chartreuse;
+     color: black;
+ }
+ .dropdown-contenido a#poygo:hover{
+     background-color: #95A5A6;
+     color: black;
+ }
+ .dropdown-contenido a#poli:hover{
+     background-color: orange;
+     color: black;
+ }
+ .dropdown-contenido a#de:hover{
+     background-color: deepskyblue;
+     color: black;
+ }
+ .dropdown-contenido a#espe:hover{
+     background-color: deeppink;
+     color: black;
+ }
+ .dropdown-contenido a#pu:hover{
+     background-color: darkmagenta;
+     color: black;
+ }
+ .dropdown-contenido a#vid:hover{
+     background-color: yellow;
+     color: black;
+ }
+ .dropdown:hover .dropdown-contenido{
+     display: block;
+ }
+ .dropdown:hover .menu {
+     color:whitesmoke;
+ }
+ #slogan1{ 
+     margin-top:27px;
+     font-family: Century Gothic;
+     font-size:14px;
+     color: white;    
+ }
+ .red{
+     margin-top: 20px;
+     color: white;
+     background:#95A5A6; 
+     width: 35px;
+     height: 35px;
+     text-align: center;
+     border-radius: 35px;
+     padding: 5px;
+     float: right;
+ }
+ 
+ .red.tw:hover{
+     background: #55ACEE;
+ }
+ .red.fb:hover{
+     background: #3b5998; 
+ }
+ .red.yt:hover{
+     background: red; 
+ }
+ .red1{
+     margin-right: 30px;  
+ }
+ /* ** MENU 2 ** */
+#mun1{
+    background-color: chartreuse;
+    width: 90px; height: 40px;
+    color:black;
+    padding: 5px;
+    font-size: 9px;
+    
+}
+#mun1:hover{
+    background-color: #222;
+    width:90px; height: 40px;
+    color:white;
+    padding: 5px;
+    font-size:9px;
+}
+#pyg1{
+    background-color: #95A5A6;
+    width: 90px; height: 40px;
+    color: black;
+    padding: 4px;
+    font-size: 9px;
+}
+#pyg1:hover{
+    background-color: #222;
+    width: 90px; height: 40px;
+    color: white;
+    padding: 4px;
+    font-size: 9px;
+}
+#pol1{
+    background-color: orange;
+    width:90px; height: 40px;
+    color: black;
+    padding: 5px;
+    font-size: 9px;
+}
+#pol1:hover{
+    background-color: #222;
+    width: 90px; height: 40px;
+    color: white;
+    padding: 5px;
+    font-size: 9px;
+}
+#dep1{
+    background-color: deepskyblue;
+    width: 90px; height: 40px;
+    color: black;
+    padding: 5px;
+    font-size: 9px;
+}
+#dep1:hover{
+    background-color: #222;
+    width: 90px; height: 40px;
+    color: white;
+    padding: 5px;
+    font-size: 9px;
+}
+#esp1{
+    background-color: deeppink;
+    width: 90px; height: 40px;
+    color: black;
+    padding: 5px;
+    font-size: 9px;
+}
+#esp1:hover{
+    background-color: #222;
+    width: 90px; height: 40px;
+    color: white;
+    padding: 5px;
+    font-size: 9px;
+}
+#publi1{
+    background-color: darkmagenta;
+    width:90px; height: 40px;
+    color: black;
+    padding: 5px;
+    font-size: 9px;
+}
+#publi1:hover{
+    background-color: #222;
+    width: 90px; height: 40px;
+    color: white;
+    padding: 5px;
+    font-size: 9px;
+}
+#video1{
+    background-color: yellow;
+    width: 90px; height: 40px;
+    color: black;
+    padding: 5px;
+    font-size:9px;
+}
+#video1:hover{
+    background-color: #222;
+    width: 90px; height: 40px;
+    color: white;
+    padding: 5px;
+    font-size: 9px;
+}
+/* == CONTENIDO ==*/
+#color{
+    background: chartreuse;
+    color:black;
+}
+#verde{
+    background: #95A5A6;
+    color: black;
+}
+#red{
+    background: orange;
+    color:black;
+}
+#blue{
+    background: deepskyblue;
+    color: black;
+}
+#naranja{
+    background: deeppink;
+    color: black
+}
+#mora{
+    background: darkmagenta;
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+}
+#amarillo{
+    background: yellow;
+    color: black;
+    text-align: center---;
+    margin-top: 30px;
+}
+.img{
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    align-content: center;
+}
+.margen{
+    padding-top: 15px;
+}
+
+/* == FOOTER ==*/
+#footer{
+    padding: 0px 10px 0px 10px; 
+    background: #222;
+    color: white;
+}
+#mun{
+    background-color:#222 ;
+    width: 140px; height: 90px;
+    color:white;
+    padding: 10px;
+}
+#mun:hover{
+    background-color: chartreuse;
+    width: 140px; height: 90px;
+    color:black;
+    padding: 10px;
+}
+#pyg{
+    background-color: #222;
+    width: 140px; height: 90px;
+    color: white;
+    padding: 10px;
+}
+#pyg:hover{
+    background-color: #95A5A6;
+    width: 140px; height: 90px;
+    color: black;
+    padding: 10px;
+}
+#pol{
+    background-color: #222;
+    width: 140px; height: 90px;
+    color: white;
+    padding: 10px;
+}
+#pol:hover{
+    background-color: orange;
+    width: 140px; height: 90px;
+    color: black;
+    padding: 10px;
+}
+#dep{
+    background-color: #222;
+    width: 140px; height: 90px;
+    color: white;
+    padding: 10px;
+}
+#dep:hover{
+    background-color: deepskyblue;
+    width: 140px; height: 90px;
+    color: black;
+    padding: 10px;
+}
+#esp{
+    background-color: #222;
+    width: 140px; height: 90px;
+    color: white;
+    padding: 10px;
+    
+}
+#esp:hover{
+    background-color: deeppink;
+    width: 140px; height: 90px;
+    color: black;
+    padding: 10px;
+    
+}
+#publi{
+    background-color: #222;
+    width: 140px; height: 90px;
+    color: white;
+    padding: 10px;
+    
+}
+#publi:hover{
+    background-color: darkmagenta;
+    width: 140px; height: 90px;
+    color: black;
+    padding: 10px;
+    
+}
+#video{
+    background-color: #222;
+    width: 140px; height: 90px;
+    color: white;
+    padding: 10px;
+    
+}
+#video:hover{
+    background-color: yellow;
+    width: 140px; height: 90px;
+    color: black;
+    padding: 10px;
+    
+}
+#d2{
+    text-align: left;
+    margin-top: 20px;
+    color: white;
+    font-size: 14px;
+    font-family: Century Gothic;
+}
+
+/* *** Secciones *** */
+.head{
+    text-align: left;
+    padding:15px 15px 15px 40px;
+}
+
+/* TITULOS */
+.tnoticias{
+    font-family: Century Gothic;
+    font-size: 16px;
+    color:black;
+    text-decoration: none;
+    text-align: justify;
+    
+}
+.sintesis{
+    font-family: Century Gothic;
+    font-size: 14px;
+    color: black;
+    overflow: hidden;
+    text-align: center;
+    margin: 30px;
+    height: 180px;
+}
+.inoti{
+    width: 220px;
+    height: 170px;
+    padding: 20px;
+    border-radius: 30px;
+    margin: 50px 10px 40px 10px;
+}
+/* ** PUBLICIDAD ** */
+.publi{
+    width: 250px; height: 150px;
+    align-content: center;
+    padding: 10px;
+}
+.esp{
+    width: 270px; height: 170px;
+}
+.tpubli{
+    background: darkmagenta;
+    color: white;
+    font-family: Century Gothic;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 19px;
+}
+/* ** NOTICIAS ** */
+#mitabla{
+    border: whitesmoke;
+    border-style: solid;
+    margin-top:50px;
+}
+.notas{
+    color: #245269;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.desc{
+    text-align: center;
+    height: 120px;
+    overflow: hidden;
+    font-size:13px;
+}
+.txtnotas{
+    
+    font-size: 16px;
+    padding: 20px;
+    
+    
+}
+.imgnotas{
+   padding: 20px;
+   width: 720px;
+   height: 300px;
+   align-content: center;
+}
+.notpubli{
+    background: darkmagenta;
+    color: white;
+    font-family: Century Gothic;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 50px;
+}
+.tb{
+    margin: 10px;
+}
+.menup{
+    margin-top: 70px;
+    align-content: center;
+    text-align: center;
+}
+.menua{
+    align-content: center;
+    text-align: center;
+}
+.wrap1{
+    padding-bottom: 50px;
+    text-align: center;
+}
+/* ** VIDEOS ** */
+.titulov{
+    font-family: Century Gothic;
+    font-size: 20px;
+    color: black;
+    min-height:20px;
+    text-align:left;
+    margin-top: 50px;
+    
+}
+.imapubli{
+    width: 180px;
+    height: 120px;
+    text-align: center;
+}
+.selec{
+    margin-top:80px;
+}
+/* ** MODAL ** */
+.imagenes{
+    width: 600px;
+    height: 400px;
+    align-content: center;
+    text-align: center;
+    border-radius: 30px;
+    padding: 20px;
+}
+.texto{
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    min-height: 100px;
+    padding: 10px;
+}
+.smuni{
+    color: black;
+    float: right;
+}
+#modalmun{
+    padding: 10px;
+    text-align: center;
+}
+#btnmun{
+   float: right;
+   color: white;
+   text-decoration: none;
+  
+}
+.fecha{
+    text-align: right;
+    font-size: 12px;
+    color: black;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.fecha1{
+    text-align: right;
+    margin-right: 20px;
+}
+.titulonvanotas{
+    text-align: center;
+    height: 60px;
+    overflow: hidden;
+    color: #245269;
+    font-size: 16px;
+    padding: 5px;
+}
+.txtnvanota{
+    text-align: justify;
+    height: 100px;
+    overflow: hidden;
+    font-size: 14px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+#myCarousel{
+   width: 780px;
+   height: 520px;
+   margin: 10px;
+}
+
+/* ** PENDIENTES ** */
+
+.img-rounded {
+    
+    width: 520px;
+    height: 350px;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+.leer{
+    
+    
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+
+.pagi{
+    margin-left: 500px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
