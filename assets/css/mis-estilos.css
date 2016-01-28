@@ -448,12 +448,13 @@ h2{
     height: 120px;
     overflow: hidden;
     font-size:13px;
+    
 }
 .txtnotas{
-    
+    font-family: Arial;
     font-size: 16px;
     padding: 20px;
-    
+    color: #444
     
 }
 .imgnotas{

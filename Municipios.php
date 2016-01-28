@@ -94,7 +94,8 @@
                                     <td>
                                         <div class="tnoticias"> <b><?php echo htmlentities($res['titulo']); ?></b> </a> </div>
                                         <div class="sintesis"><div><?php echo htmlentities($res['sintesis']); ?></div>
-                                        <a href="">Leer ...[+]</a><br/>
+                                        
+                                            <div>    <a href="">Leer ...[+]</a><br/></div>
                                     </td> 
                                 </tr>    
                                 <?php
