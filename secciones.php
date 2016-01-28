@@ -9,7 +9,7 @@
     $day = date("Y-m-d");
     $limite = strtotime("-7 days");
     $limiteNoticias = date("Y-m-d", $limite);
-    $objtSeccion = new menusClass($idMenus, $menus, $url, $clase, $orden,$color);
+    $objtSeccion = new menusClass($idMenus, $menus, $url, $clase, $orden, $color);
     $rwSeccion = $objtSeccion->menusSecciones();
     ?>
     <head>
@@ -54,7 +54,7 @@
                                     <div class="dropdown-contenido">     
                                         <a href="Municipios.php" id="mu" > Municipios <i id="fa" class="fa fa-fort-awesome" style="float: right"> </i> </a>  
                                         <a href="secciones.php?id=3" id="poygo"> Política y Gobierno <i class="fa fa-users" style="float: right"></i> </a>
-                                        <a href="policiaca.html" id="poli"> Policíacas <i class="fa fa-cab" style="float: right"></i> </a>
+                                        <a href="policiaca.html" id="poli"> Policía <i class="fa fa-cab" style="float: right"></i> </a>
                                         <a href="deportes.html" id="de"> Deportes <i class="fa fa-futbol-o" style="float: right"></i> </a>
                                         <a href="espectaculos.html" id="espe"> Espectáculos <i class="fa fa-camera" style="float: right"></i> </a>
                                         <a href="publicidad.html" id="pu"> Publicidad<i class="fa fa-bullhorn" style="float: right"></i> </a>
@@ -85,7 +85,7 @@
                                         </div> </a></th>
                                 <th><a href="secciones.php?id=4"> <div id="pol1" class="btn" role="button">
                                             <i class="fa fa-cab"></i>
-                                            <p><b> POLICIACA</b> </p>
+                                            <p><b> POLICIA</b> </p>
                                         </div></a></th>  
                                 <th><a href="secciones.php?id=5"> <div id="dep1" class="btn" role="button">
                                             <i class="fa fa-futbol-o"></i>
@@ -118,7 +118,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-7 col-sm-offset-1">
-                        <div><h2 id="<?php echo $rwSeccion->color;?>" class="titulos head" ><i class="fa fa-angle-double-right"></i><?php echo $rwSeccion->menus; ?></h2> </div>
+                        <div><h2 id="<?php echo $rwSeccion->color; ?>" class="titulos head" ><i class="fa fa-angle-double-right"></i><?php echo $rwSeccion->menus; ?></h2> </div>
                         <?php
                         $pagina = new PHPPaging;
                         ?>
@@ -133,6 +133,7 @@
                                 <tr>
                                     <td> <div class=""> <img class="inoti" src="<?php echo $res['imagen']; ?>" alt=""> </div> </td>
                                     <td> <div class="tnoticias"> <b> <?php echo $res['titulo']; ?></b> </a> </div>
+                                        
                                         <div class="sintesis"> <?php echo $res['sintesis']; ?></div>
                                         <a href="nota.php?idNoticias=<?php echo $res['idNoticias'] ?>">Leer ...[+]</a><br/>
                                     </td>    
