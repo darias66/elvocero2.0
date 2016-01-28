@@ -30,7 +30,7 @@ $rsBanners = $objtBanners->listarBanner
         <link href="assets/css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
         <!-- GOOGLE FONTS -->
-        <link href='https://fonts.googleapis.com/css?family=Lobster|Josefin+Sans|Patua One' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Lobster|Droid Sans|Patua One' rel='stylesheet' type='text/css'>
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -156,7 +156,7 @@ $rsBanners = $objtBanners->listarBanner
                                     <th>
                                         <div class="txtnotas">
                                             <p> 
-                                                <?php echo $rwDetalle->contenido; ?>
+                                                <?php echo "<p> $rwDetalle->contenido </p>" ?>
                                             </p>
                                         </div>
                                     </th>    
