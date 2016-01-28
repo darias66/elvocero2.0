@@ -39,11 +39,11 @@
 
     <body>
 
-
+        
         <!-- HEADER -->
-        <?php include 'encabezado.php'; ?>
+        <?php include 'encabezado.php';?>
         <!-- /Header -->
-
+        
         <!-- CONTENIDO -->
         <section class="mnuevo">
             <div class="container">
@@ -91,13 +91,11 @@
                             <table class="table table-striped">
                                 <tr>
                                     <td> <div class=""> <img class="inoti" src="<?php echo $res['imagen']; ?>" alt=""> </div> </td>
-                                    <td>
-                                        <div class="tnoticias"> <b><?php echo htmlentities($res['titulo']); ?></b> </a> </div>
-                                        <div class="sintesis"><div><?php echo htmlentities($res['sintesis']); ?></div>
-                                        
-                                            <div>    <a href="">Leer ...[+]</a><br/></div>
-                                    </td> 
-                                </tr>    
+                                    <td> <div class="tnoticias"> <b><?php echo htmlentities($res['titulo']); ?></b> </a> </div>
+                                        <div class="sintesis"> <?php echo htmlentities($res['sintesis']); ?></div>
+                                        <a href="nota.php?idNoticias=<?php echo $res['idNoticias']; ?>">Leer ...[+]</a><br/>
+                                    </td>    
+                                </tr>
                                 <?php
                             }
                             ?>
@@ -128,9 +126,9 @@
         </div>
 
         <!-- FOOTER -->
-
-        <?php include 'footer.php'; ?>
-
+           
+             <?php include 'footer.php'; ?>
+             
         <!-- /Footer -->
 
 
