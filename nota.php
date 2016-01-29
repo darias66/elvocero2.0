@@ -81,7 +81,7 @@ $rsBanners = $objtBanners->listarBanner
                                 
                                 <tr>
                                     <th>
-                                        <div class="txtnotas">
+                                        <div class="noticias">
                                             <p> 
                                                 <?php echo "<p> $rwDetalle->contenido </p>" ?>
                                             </p>

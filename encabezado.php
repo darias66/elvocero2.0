@@ -14,7 +14,7 @@
                                 <a href="secciones.php?id=5" id="de"> Deportes <i class="fa fa-futbol-o" style="float: right"></i> </a>
                                 <a href="secciones.php?id=6" id="espe"> Espectáculos <i class="fa fa-camera" style="float: right"></i> </a>
                                 <a href="" id="pu"> Publicidad<i class="fa fa-bullhorn" style="float: right"></i> </a>
-                                <a href="" id="vid"> Videos <i class="fa fa-video-camera" style="float: right"></i> </a>
+                                <a href="videomodal.php" id="vid"> Videos <i class="fa fa-video-camera" style="float: right"></i> </a>
                             </div> <!-- /.drop-contenido -->
                         </div>
                     </div>

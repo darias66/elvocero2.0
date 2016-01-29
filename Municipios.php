@@ -81,7 +81,8 @@
                         ?>    
 
                         <div><h2 id="color" class="titulos head" ><i class="fa fa-angle-double-right"></i><?php echo htmlentities($Munic); ?>
-                                MUNICIPIOS</h2></div>
+                                </h2></div>
+                        <div> <a href="" data-toggle="modal" data-target="#bu"> <i class="smuni fa fa-search-plus"></i> </a> </div>
 
 
 
