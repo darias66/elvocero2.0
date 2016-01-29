@@ -398,6 +398,10 @@ h2{
     text-align: justify;
     
 }
+.tnoticias:hover{
+    color: #5e5e5e;
+    text-decoration: none;
+}
 .sintesis{
     font-family: Century Gothic;
     font-size: 14px;

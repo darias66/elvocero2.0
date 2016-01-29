@@ -81,7 +81,7 @@
                         ?>    
 
                         <div><h2 id="color" class="titulos head" ><i class="fa fa-angle-double-right"></i><?php echo htmlentities($Munic); ?>
-                                <a href="" data-toggle="modal" data-target="#bu"> <i class="smuni fa fa-search-plus"></i> </a></h2></div>
+                                MUNICIPIOS</h2></div>
 
 
 
@@ -91,9 +91,10 @@
                             <table class="table table-striped">
                                 <tr>
                                     <td> <div class=""> <img class="inoti" src="<?php echo $res['imagen']; ?>" alt=""> </div> </td>
-                                    <td> <div class="tnoticias"> <b><?php echo htmlentities($res['titulo']); ?></b> </a> </div>
+                                    <td> <div><a href="nota.php?idNoticias=<?php echo $res['idNoticias']; ?>" class="tnoticias"><b><?php echo htmlentities($res['titulo']); ?></b> </a> </div>
+                                        <div> </div>
                                         <div class="sintesis"> <?php echo htmlentities($res['sintesis']); ?></div>
-                                        <a href="nota.php?idNoticias=<?php echo $res['idNoticias']; ?>">Leer ...[+]</a><br/>
+                                     
                                     </td>    
                                 </tr>
                                 <?php

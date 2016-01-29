@@ -9,7 +9,7 @@ while ($rwSecciones2 = mysql_fetch_object($rsSecciones2)) {
         ?>
 
         <a href="<?php echo $url ?>?id=<?php echo $idMenus ?>" style="text-decoration: none;">
-            <div>
+            <div class="container">
                 <h2 id="red" class="titulos"><?php echo $seccion . "<br/>"; ?></h2>
             </div> 
         </a>   

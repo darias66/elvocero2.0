@@ -77,7 +77,7 @@
                         $Munic = $Muni->municipio;
                         }
                         ?>    
-                        <div><h2 id="color" class="titulos head" ><i class="fa fa-angle-double-right"></i><?php echo htmlentities($Munic); ?>MUNICIPIOS</h2> </div>                   
+                        <div><h2 id="color" class="titulos head" ><i class="fa fa-angle-double-right"> </i> MUNICIPIOS <?php echo htmlentities($Munic); ?> </h2></div>                   
 
 
                         <?php
