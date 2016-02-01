@@ -4,7 +4,7 @@
         <div class="container-fluid">
             <div class="navbar-header">
                 <div class="dropdown">
-                    <button id="menu" class="fa fa-navicon fa-2x"></button>
+                    <button id="menu" class="fa fa-navicon fa-2x "></button>
                     <div class="row">
                         <div class="col-sm-4">
                             <div class="dropdown-contenido">     
@@ -14,7 +14,7 @@
                                 <a href="secciones.php?id=5" id="de"> Deportes <i class="fa fa-futbol-o" style="float: right"></i> </a>
                                 <a href="secciones.php?id=6" id="espe"> Espectáculos <i class="fa fa-camera" style="float: right"></i> </a>
                                 <a href="" id="pu"> Publicidad<i class="fa fa-bullhorn" style="float: right"></i> </a>
-                                <a href="videomodal.php" id="vid"> Videos <i class="fa fa-video-camera" style="float: right"></i> </a>
+                                <a href="seccVideos.php" id="vid"> Videos <i class="fa fa-video-camera" style="float: right"></i> </a>
                             </div> <!-- /.drop-contenido -->
                         </div>
                     </div>
@@ -23,12 +23,13 @@
 
             <div class="navbar-header">
                 <a href="index.php"> 
-                    <img id="logo" src="assets/img/logo-1.png" alt="logo" title="La Voz Oficial de la Noticia">
+                    <img id="logo" 
+                         src="assets/img/logo-1.png" alt="logo" title="La Voz Oficial de la Noticia">
                 </a>
             </div> <!-- /.navbarheader -->   
             <p class="navbar-text" id="slogan1" ><b> La voz oficial de la noticia </b></p>
 
-            <div class="navbar-right">
+            <div class=" visible-md visible-lg   navbar-right">
 
                 <table class="table-condensed tb">
                     <tr>

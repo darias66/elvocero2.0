@@ -266,7 +266,7 @@ h2{
 #amarillo{
     background: yellow;
     color: black;
-    text-align: center---;
+    text-align: center;
     margin-top: 30px;
 }
 .img{
@@ -398,10 +398,12 @@ h2{
     text-align: justify;
     
 }
+
 .tnoticias:hover{
     color: #5e5e5e;
     text-decoration: none;
 }
+
 .sintesis{
     font-family: Century Gothic;
     font-size: 14px;
@@ -411,6 +413,7 @@ h2{
     margin: 30px;
     height: 180px;
 }
+
 .inoti{
     width: 220px;
     height: 170px;
@@ -419,13 +422,16 @@ h2{
     margin: 50px 10px 40px 10px;
 }
 /* ** PUBLICIDAD ** */
+
 .publi{
     width: 250px; height: 150px;
     align-content: center;
     padding: 10px;
 }
+
 .esp{
     width: 270px; height: 170px;
+
 }
 .tpubli{
     background: darkmagenta;
@@ -434,18 +440,21 @@ h2{
     font-size: 16px;
     text-align: center;
     margin-top: 19px;
+
 }
 /* ** NOTICIAS ** */
 #mitabla{
     border: whitesmoke;
     border-style: solid;
     margin-top:50px;
+
 }
 .notas{
     color: #245269;
     text-align: left;
     margin-left: 20px;
     margin-right: 20px;
+
 }
 .desc{
     text-align: center;
@@ -453,6 +462,7 @@ h2{
     overflow: hidden;
     font-size:13px;
     
+
 }
 .txtnotas{
     font-family: Arial;
@@ -587,11 +597,8 @@ h2{
     
 }
 .leer{
-    
-    
     margin-left: 40px;
-    margin-right: 40px;
-    
+    margin-right: 40px;    
 }
 
 .pagi{
